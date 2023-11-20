@@ -24,11 +24,7 @@
     if (isset($_POST['uname'])) {
         $unameValue = $_POST['uname'];
         echo "The uname is: " . $unameValue;
-        
-        
-    $uname = $conn->real_escape_string($_REQUEST['uname']);
-        
+
     }
-    $sql = "INSERT INTO users (user_name) VALUES ('porro')";
 
 ?>
